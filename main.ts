@@ -2,6 +2,7 @@ namespace SpriteKind {
     export const element = SpriteKind.create()
 }
 
+let banned_from_artwork = ["georgi"]
 // sprites
 let air = sprites.create(assets.image`Air`, SpriteKind.element)
 air.setPosition(20, 20)

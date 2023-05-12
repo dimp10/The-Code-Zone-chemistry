@@ -2,6 +2,8 @@
 class SpriteKind:
     element = SpriteKind.create()
 
+banned_from_artwork = ["georgi"]
+
 #sprites
 air = sprites.create(assets.image("Air"), SpriteKind.element)
 air.set_position(20, 20)
