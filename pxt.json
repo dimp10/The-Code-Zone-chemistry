@@ -3,7 +3,9 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "mouse": "*"
+        "mouse": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "Database": "github:Ashalls/TCZ-Modders-DB-Storage#v1.3.1"
     },
     "files": [
         "main.blocks",
@@ -20,7 +22,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.30",
+        "target": "1.13.9",
         "pxt": "8.5.2",
         "targetId": "arcade"
     },
