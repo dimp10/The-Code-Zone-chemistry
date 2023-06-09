@@ -16,13 +16,14 @@
         "tilemap.g.ts",
         "images.g.jres",
         "images.g.ts",
-        "elements.ts"
+        "elements.ts",
+        "elementList.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.30",
+        "target": "1.13.9",
         "pxt": "8.5.2",
         "targetId": "arcade"
     },
