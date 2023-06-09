@@ -1,25 +1,8 @@
 let elementList: { [key: string]: Element } = {
     "Air": new Element("Air",
         { "Fire": "Smoke", "Water": "Mist", "Earth": "Dust", "Air": "Pressure", "Animal": "Bird", "Atmosphere": "Pressure", "City": "Smog", "Cloud": "Sky", "Cold": "Chill", "Container": "Scuba Tank", "Dinosaur": "Pterodactyl", "Egg": "Bird", "Electricity": "Ozone", "Energy": "Heat", "Fish": "Flying Fish", "Heat": "Warmth", "Idea": "Gas", "Land": "Dust", "Lava": "Stone", "Lizard": "Dragon", "Metal": "Rust", "Meteoroid": "Meteor", "Motion": "Wind", "Mouse": "Bat", "Paper": "Kite", "Pebble": "Sand", "Planet": "Atmosphere", "Pressure": "Wind", "Rain": "Mist", "Rock": "Sand", "Science": "Gas", "Sky": "Atmosphere", "Small": "Gust", "Soil": "Dust", "Squirrel": "Flying Squirrel", "Steam": "Mist", "Steel": "Rust", "Stone": "Sand", "Sugar": "Cotton Candy", "Wave": "Sound", "Wine": "Vinegar", "Wood": "Flute" },
-        img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-1 . . . 1 . . . 1 . . . 1 . . . 
-. 1 . 1 . 1 . 1 . 1 . 1 . 1 . . 
-. . 1 . . . 1 . . . 1 . . . 1 . 
-. . . . . . . . . . . . . . . . 
-1 . . . 1 . . . 1 . . . 1 . . . 
-. 1 . 1 . 1 . 1 . 1 . 1 . 1 . . 
-. . 1 . . . 1 . . . 1 . . . 1 . 
-. . . . . . . . . . . . . . . . 
-1 . . . 1 . . . 1 . . . 1 . . . 
-. 1 . 1 . 1 . 1 . 1 . 1 . 1 . . 
-. . 1 . . . 1 . . . 1 . . . 1 . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`
-    , 1),
+
+, 1),
     "Dust": new Element("Dust", {}, img`
         . . . . . . . . . . . . . . . .
         . . . . . . . . . . . . . . . .
