@@ -1,7 +1,6 @@
 namespace SpriteKind {
     export const Element = SpriteKind.create()
 }
-
 class GameManager {
     cursor: Sprite
     field: Sprite[] = []
@@ -87,5 +86,4 @@ class GameManager {
         }
     }
 }
-
 let gameMngr = new GameManager()
